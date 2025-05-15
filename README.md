@@ -1,5 +1,21 @@
-## Next.js App Router Course - Starter
+# 学習記録
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+このリポジトリは、[Next.js 公式チュートリアル](https://nextjs.org/learn)を学習した記録をまとめたものです。各章ごとに学んだ内容を整理しています。
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Chapter 1: Next.js の基本
+
+- Next.js の基本的なファイル構成について学習
+  - `/app` ディレクトリ
+    - アプリケーションのルート、コンポーネント、ロジックを含む主要なディレクトリ
+    - 主にこのディレクトリで作業を行う
+  - `/app/lib` ディレクトリ
+    - 再利用可能なユーティリティ関数やデータ取得関数を格納
+  - `/app/ui` ディレクトリ
+    - カード、テーブル、フォームなどの UI コンポーネントを格納
+    - 事前にスタイリングされたコンポーネントを活用可能
+  - `public/` ディレクトリ
+    - 画像などの静的アセットを格納
+  - `next.config.js` ファイル
+    - プロジェクトの設定を管理
+    - `create-next-app` を使用して新しいプロジェクトを開始すると自動生成される
+    - 基本的には変更不要
